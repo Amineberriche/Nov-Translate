@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+body{
+  margin:0;
+  padding: 0;
+  font-family: Roboto,"Arial"
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  opacity: 0.33;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd; 
+  opacity: 0.33;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
